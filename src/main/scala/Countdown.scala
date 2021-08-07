@@ -1,5 +1,7 @@
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
+//This shows how two actors can communicate with each other
+//This also includes understanding how keywords like context, self and sender work in the Akka context
 object Countdown extends App {
 
   case class StartCountDown (n:Int, otherActor: ActorRef )

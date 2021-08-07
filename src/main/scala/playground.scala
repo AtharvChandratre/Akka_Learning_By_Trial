@@ -1,5 +1,6 @@
 import akka.actor.{Actor, ActorSystem, Props}
 
+//This is how a basic Akka Actor and Actor system works, and how messages are passed to it
 object playground extends App {
 
   class ExampleActor extends Actor {
